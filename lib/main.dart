@@ -1,5 +1,5 @@
 import 'package:doctor_g/pages/category/Dermatologist.dart';
-import 'package:doctor_g/pages/category/Orthopedic.dart';
+import 'package:doctor_g/pages/specialistProfile/Profile.dart';
 import 'package:flutter/material.dart';
 import 'package:doctor_g/pages/HomePage.dart';
 import 'package:doctor_g/pages/UserProfile.dart';
@@ -28,6 +28,7 @@ class Doctor extends StatelessWidget {
         Routes.userProfileRoute: (context) => UserProfile(),
         Routes.imageUploadRoute: (context) => ImageUpload(),
         Routes.dermatologistRoute:(context) => Dermatologist(),
+        Routes.doctorProfileRoute:(context) => DoctorProfile(),
 
 
 

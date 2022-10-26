@@ -3,5 +3,6 @@ class Routes{
   static String userProfileRoute = "/profile";
   static String imageUploadRoute = "/imageUpload";
   static String dermatologistRoute = "/dermatologist";
+  static String doctorProfileRoute = "/doctorProfile";
 
 }
