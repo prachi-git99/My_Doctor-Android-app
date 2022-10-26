@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:doctor_g/utils/Routes.dart';
 
 class UserProfile extends StatefulWidget {
   const UserProfile({Key? key}) : super(key: key);
@@ -27,22 +28,28 @@ class _UserProfileState extends State<UserProfile> {
           ),
         ),
       ),
-      bottomSheet: Container(
-        margin: EdgeInsets.only(top: 10),
-        height: 50,
-        width: double.infinity,
-        child: Card(
+      bottomSheet:GestureDetector(
+        onTap: (){
+          Navigator.pushNamed(context, Routes.imageUploadRoute);
+        },
+        child:  Container(
+          margin: EdgeInsets.only(top: 10),
+          height: 50,
+          width: double.infinity,
+          child: Card(
             elevation: 10,
             shadowColor: Colors.white70,
             color: Colors.teal,
-          child:Center(
+            child:Center(
               child: Text("Upload Your Reports",
-            style: TextStyle(
-              fontSize: 20,
-              color: Colors.white,
-              fontFamily: 'Roboto',
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white,
+                  fontFamily: 'Roboto',
+                ),
+              ),
             ),
-          )),
+          ),
         ),
       ),
       body: Container(
