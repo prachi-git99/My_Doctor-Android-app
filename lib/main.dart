@@ -1,10 +1,10 @@
-import 'package:doctor_g/pages/category/Dermatologist.dart';
-import 'package:doctor_g/pages/specialistProfile/Profile.dart';
+import 'package:doctors_appointment_app/pages/category/Dermatologist.dart';
+import 'package:doctors_appointment_app/pages/specialistProfile/Profile.dart';
 import 'package:flutter/material.dart';
-import 'package:doctor_g/pages/HomePage.dart';
-import 'package:doctor_g/pages/UserProfile.dart';
-import 'package:doctor_g/utils/Routes.dart';
-import 'package:doctor_g/pages/ImageUpload.dart';
+import 'package:doctors_appointment_app/pages/HomePage.dart';
+import 'package:doctors_appointment_app/pages/UserProfile.dart';
+import 'package:doctors_appointment_app/utils/Routes.dart';
+import 'package:doctors_appointment_app/pages/ImageUpload.dart';
 
 
 void main() {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:doctor_g/utils/Routes.dart';
+import 'package:doctors_appointment_app/utils/Routes.dart';
 
 class Dermatologist extends StatefulWidget {
   const Dermatologist({Key? key}) : super(key: key);

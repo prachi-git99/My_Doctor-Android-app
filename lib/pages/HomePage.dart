@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:doctor_g/pages/DoctorDetailPage.dart';
-import 'package:doctor_g/utils/Routes.dart';
-import 'package:doctor_g/widgets/drawer.dart';
+import 'package:doctors_appointment_app/pages/DoctorDetailPage.dart';
+import 'package:doctors_appointment_app/utils/Routes.dart';
+import 'package:doctors_appointment_app/widgets/drawer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

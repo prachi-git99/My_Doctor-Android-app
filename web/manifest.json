@@ -1,6 +1,6 @@
 {
-    "name": "doctor_g",
-    "short_name": "doctor_g",
+    "name": "doctors_appointment_app",
+    "short_name": "doctors_appointment_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

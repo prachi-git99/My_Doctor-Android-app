@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:doctor_g/utils/Routes.dart';
+import 'package:doctors_appointment_app/utils/Routes.dart';
 
 class MyDrawer extends StatelessWidget {
   @override
